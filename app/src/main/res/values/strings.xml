@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Restaurante</string>
+    <string name="et_clave">Contraseña</string>
+    <string name="et_correo">Correo electronico</string>
+    <string name="bt_registro">Registrarse</string>
+    <string name="bt_loguearse">Iniciar sesion</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_restaurante">Restaurantes</string>
+    <string name="msg_add_Restaurante">Agregar Restaurante</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="btflt_add_restaurante">agregar restaurante</string>
+    <string name="bt_add_restaurante">agregar restaurante</string>
+    <string name="msg_Nombre">Nombre Restaurante</string>
+    <string name="msg_Ubicacion">Ubicacion</string>
+    <string name="msg_Telefono">Telefono</string>
+    <string name="msg_Platillos">Platillos</string>
+    <string name="msg_falta_datos">faltan algunos  datos</string>
+    <string name="img_restaurante_cardView">foto</string>
+
+</resources>

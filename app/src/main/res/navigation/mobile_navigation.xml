@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_restaurante">
+
+    <fragment
+        android:id="@+id/nav_restaurante"
+        android:name="com.restaurante.ui.Restaurante.RestauranteFragment"
+        android:label="@string/menu_restaurante"
+        tools:layout="@layout/fragment_restaurante" >
+        <action
+            android:id="@+id/action_nav_restaurante_to_addRestauranteFragment"
+            app:destination="@id/addRestauranteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.restaurante.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.restaurante.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addRestauranteFragment"
+        android:name="com.restaurante.ui.Restaurante.addRestauranteFragment"
+        android:label="fragment_add_restaurante"
+        tools:layout="@layout/fragment_add_restaurante">
+        <action
+            android:id="@+id/action_addRestauranteFragment_to_nav_restaurante"
+            app:destination="@id/nav_restaurante" />
+    </fragment>
+</navigation>
